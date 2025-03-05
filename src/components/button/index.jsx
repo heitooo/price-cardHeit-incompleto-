@@ -1,7 +1,9 @@
-export function Button() {
+import "./style.css";
+
+export function Button({ title }) {
   return (
     <button type="button" id="botao">
-      Assine Agora!
+      {title}
     </button>
   );
 }

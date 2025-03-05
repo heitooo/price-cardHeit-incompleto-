@@ -1,10 +1,15 @@
-export function Item() {
+import { Check, Info } from "lucide-react";
+import "./style.css";
+
+export function Item({ functionality }) {
   return (
-    <ul id="listaItem">
-      <li>Usuários ilimitados</li>
-      <li>Suporte 24/7</li>
-      <li>CSM Dedicado</li>
-      <li>Treinamentos</li>
-    </ul>
+    <li>
+      <div>
+        <Check size={20} color="#04D361" />
+        {functionality}
+      </div>
+      <Info size={20} color="#647488" />
+    </li>
   );
 }
+  ''

@@ -1,0 +1,12 @@
+.label {
+  position: absolute;
+  transform: translate(80%);
+  padding: 10px;
+  background-color: chocolate;
+  z-index: 10;
+  top: -20px;
+}
+
+.label h1 {
+  font-size: 16px;
+}
